@@ -1,0 +1,43 @@
+name: flutter_spid_button
+description: Official SPID (Sistema Pubblico di Identità Digitale) authentication button widget for Flutter
+version: 1.0.0
+homepage: https://github.com/italia/spid-sp-access-button
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: TitilliumWeb
+      fonts:
+        - asset: assets/fonts/TitilliumWeb-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/TitilliumWeb-SemiBold.ttf
+          weight: 600
+
+  assets:
+    - assets/images/spid-ico-circle-bb.png
+    - assets/images/spid-idp-arubaid.png
+    - assets/images/spid-idp-etnaid.png
+    - assets/images/spid-idp-infocamereid.png
+    - assets/images/spid-idp-infocertid.png
+    - assets/images/spid-idp-intesaid.png
+    - assets/images/spid-idp-intesigroupspid.png
+    - assets/images/spid-idp-lepidaid.png
+    - assets/images/spid-idp-namirialid.png
+    - assets/images/spid-idp-posteid.png
+    - assets/images/spid-idp-sielteid.png
+    - assets/images/spid-idp-spiditalia.png
+    - assets/images/spid-idp-teamsystemid.png
+    - assets/images/spid-idp-timid.png
